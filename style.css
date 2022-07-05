@@ -1,0 +1,33 @@
+body {
+    font-family: 'Arima', cursive;
+    background-image: radial-gradient(gray, black);
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.background_image {
+    background-image: url(images/flood.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.reason {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    font-weight: 700;
+}
+
+.reason a {
+    text-decoration: none;
+    color: white;
+    background-image: radial-gradient(black, gray);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
