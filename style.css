@@ -102,16 +102,50 @@ h1 {
     background-color: rgb(218, 230, 236);
     color: black;
     margin: 0 5px;
+    border-radius: 10px;
 }
 
 #pink {
     background-color: pink;
     color: black;
     margin: 0 5px;
+    border-radius: 10px;
 }
 
 #orange-red {
     background-color: orangered;
     color: black;
     margin: 0 5px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: radial-gradient(white, black);
+    color: black;
+}
+
+footer h3 {
+    color: blue;
+    font-weight: 700;
+}
+
+form {
+    text-align: center;
+    background-color: greenyellow;
+    margin: auto;
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+#button {
+    color: white;
+    background-image: radial-gradient(gray, black);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: -5px;
 }
